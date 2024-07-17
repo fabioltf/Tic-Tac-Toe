@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+  font-weight: 400 700;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(./fonts/Raleway-VariableFont_wght.ttf) format("truetype");
+  font-weight: 400 700;
+}
+
+.regularMontserrat {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.boldMontserrat {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.regularRaleway {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.boldRaleway {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  color: #000;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.mainContainer {
+  width: 100%;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.flexItem {
+}
+
+/* Breakpoint 1 - Mobile Phones */
+@media screen and (max-width: 480px) {
+}
+
+/* Breakpoint 2 - Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/* Breakpoint 3 - Tablets - Laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* Breakpoint 4 - Laptops - Desktops */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Breakpoint 5 - Desktops - TVs */
+@media screen and (min-width: 1201px) {
+}
